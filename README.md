@@ -1,2 +1,7 @@
-# nestbox-ai-code-examples
-Project to host example code projects that leverages the platform
+# Nestbox Example Projects
+
+This repo contains code examples using Nestbox.
+
+## Projects
+
+-   **agent-vibe-playlist**: A fun music curator agent
