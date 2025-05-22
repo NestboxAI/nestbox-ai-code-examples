@@ -1,0 +1,38 @@
+{
+  "name": "@nestbox-ai/fortis-agents",
+  "version": "1.0.0",
+  "description": "Running agents of the fortis data pipeline",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": true,
+  "scripts": {
+    "prebuild": "rimraf dist && eslint .",
+    "build": "tsc",
+    "lint": "eslint .",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "fortis",
+    "agents",
+    "data pipeline"
+  ],
+  "author": "Nestbox AI",
+  "license": "ISC",
+  "dependencies": {
+    "@llamaindex/core": "^0.6.5",
+    "@llamaindex/workflow": "^1.1.2",
+    "@nestbox-ai/functions": "^1.0.19",
+    "dotenv": "^16.5.0",
+    "jsonrepair": "^3.12.0",
+    "ollama": "^0.5.15"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3"
+  }
+}
